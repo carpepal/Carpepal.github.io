@@ -1,0 +1,90 @@
+html {
+    background-color: rgb(65, 82, 105);
+    font-family: "Times New Roman", Times, serif;
+}
+
+#bar {
+    background-color: rgb(65, 82, 105);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    border-radius: 10px;
+}
+
+#navbar ul li {
+    display: inline-flex;
+    margin-left: 12%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(248, 142, 2);
+    align-items: center;
+   justify-content: center;
+}
+
+#navbar li:hover {
+    background-color: rgb(43, 76, 119);
+    border-radius: 10px;
+}
+
+#navbar {
+    background-color: rgb(29, 52, 82);
+    border-radius: 10px;
+    
+    
+}
+
+
+
+nav button {
+    background-color: rgb(29, 52, 82);
+}
+
+.asignatura {
+    text-align: center;
+    color: black;
+}
+
+.grupo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.wrap_grupo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.practica {
+    background-color: rgb(202, 202, 202);
+    width: 94%;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding-left: 4%;
+    padding-top: 1px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+section>div {
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    padding: 2%;
+    max-width: 20cm;
+    width: 28%;
+    min-width: 5cm;
+    margin: 10px;
+    align-content: center;
+}
+
+footer{
+    background-color: rgb(29, 52, 82);
+}
