@@ -1,0 +1,139 @@
+{
+    "asignaturas":[
+        {
+            "DEWC":[
+                {
+                    "nombre":"html",
+                    "general_path":"./resources/asignaturas/DEWC",
+                    "docs_path":"/documentos/doc.pdf",
+                    "ejercicios":[
+                        {
+                            "nombre":"html inicial",
+                            "document_path":"/Practica1",
+                            "html":[
+                                {
+                                    "nombre":"html inicial",
+                                    "index_path":"/index.html"
+                                
+                                }
+                            ]
+
+                            
+                        }
+                    ]
+                },
+                {
+                    "nombre":"html basic",
+                    "general_path":"./resources/asignaturas/DEWC",
+                    "docs_path":"/documentos/doc.pdf",
+                    "ejercicios":[
+                        {
+                            "nombre":"html basics",
+                            "document_path":"/Practica2",
+                            "html":[
+                                {
+                                    "nombre":"html basic 1",
+                                    "index_path":"/HTML_basic1/index.html"
+                                
+                                },
+                                {
+                                    "nombre":"html basic 2",
+                                    "index_path":"/HTML_basic2/index.html"
+                                
+                                },
+                                {
+                                    "nombre":"html basic 3",
+                                    "index_path":"/HTML_basic3/index.html"
+                                
+                                },
+                                {
+                                    "nombre":"html basic 4",
+                                    "index_path":"/HTML_basic4/index.html"
+                                
+                                },
+                                {
+                                    "nombre":"html basic 5",
+                                    "index_path":"/HTML_basic5/index.html"
+                                
+                                },
+                                {
+                                    "nombre":"html basic 6",
+                                    "index_path":"/HTML_basic6/index.html"
+                                
+                                }
+                            ]
+
+                            
+                        }
+                    ]
+                },
+                {
+                    "nombre":"html up",
+                    "general_path":"./resources/asignaturas/DEWC",
+                    "docs_path":"/documentos/doc.pdf",
+                    "ejercicios":[
+                        {
+                            "nombre":"html up",
+                            "document_path":"/Practica3",
+                            "html":[
+                                {
+                                    "nombre":"html 5 tags",
+                                    "index_path":"/index.html"
+                                }
+                            ]
+
+                            
+                        }
+                    ]
+                },
+                {
+                    "nombre":"js Inicial",
+                    "general_path":"./resources/asignaturas/DEWC",
+                    "docs_path":"/documentos/doc.pdf",
+                    "ejercicios":[
+                        {
+                            "nombre":"js Incial",
+                            "document_path":"/Practica4",
+                            "html":[
+                                {
+                                    "nombre":"js embebed",
+                                    "index_path":"/PracticaA/index.html"
+                                },
+                                {
+                                    "nombre":"js external",
+                                    "index_path":"/PracticaB/index.html"
+                                }
+                            ]
+
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DEWS":[
+                {
+
+                }
+            ]
+        },
+        {
+            "DINT":[
+                {
+
+                }
+            ]
+        },
+        {
+            "DAPW":[
+                {
+
+                }
+            ]
+        }
+
+
+        
+    ]
+}
