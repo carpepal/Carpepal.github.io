@@ -7,3 +7,7 @@ function display(id) {
     }
 }
 
+function chargeJson(){
+    
+}
+
