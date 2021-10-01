@@ -88,3 +88,13 @@ section>div {
 footer{
     background-color: rgb(29, 52, 82);
 }
+
+
+body{
+    font-family: 'Josefina Sans' , sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family : 'Cinzel Decorative' , cursive;
+}
