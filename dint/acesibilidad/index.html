@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+           <div class="container">
+                <div class="title">Carlos Angel Pellico Feijoo</div>
+                <div class="subtitle">Tips de Accesibilidad</div>
+           </div>
+           <div class="burger material-icons">reorder</div>
+        </header>
+        <main role="main">
+            <section class="section" rol="section">
+                <h1>Design</h1>
+                <article class="article">
+                    <h2>Texto y fondo</h2>
+                    <div class="parrafo">
+                        <p>Es recomendable que el texto se diferencia bien del fondo debido a que así se facilita la
+                            legibilidad del texto , por ejemplo el típico texto negro con fondo blanco como este</p>
+                        <div class="scrollable">
+                            <div class="bg-white text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum facilisis ante ac consectetur varius. Quisque commodo blandit ex fermentum
+                                euismod. Nunc tristique ipsum et placerat hendrerit. Donec cursus dictum dolor, sed
+                                semper ante feugiat eu. Nulla a faucibus sem, a auctor massa</div>
+                            <div class="bg-black text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum facilisis ante ac consectetur varius. Quisque commodo blandit ex fermentum
+                                euismod. Nunc tristique ipsum et placerat hendrerit. Donec cursus dictum dolor, sed
+                                semper ante feugiat eu. Nulla a faucibus sem, a auctor massa</div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Uso de colores y elementos visuales</h2>
+                    <div class="parrafo">
+                        <p>A la hora de realizar el feedback de errores o sugerencias al usuario es recomendable
+                            utilizar un código de colores y elementos visuales </p>
+                        <div class="scrollable">
+                            <div class="error">*El Campo email es requerido*</div>
+                            <div class="error"><label>
+                                    Email: <input type="text">
+                                </label>
+                            </div>
+                            <div class="error"><label>Email*:<input type="text"></label>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Elementos interactivos y visuales</h2>
+                    <div class="parrafo">
+                        <p>Facilitar la identificación de elementos interactivos con colores o cambios de esto ayudara
+                            al usuario a entender con que cosas puede interactuar o no </p>
+                        <div class="scrollable">
+                            <div class="buttons">
+                                <a href="#">
+                                    <span class="material-icons"> account_circle </span>
+                                    <span class="text">text</span>
+                                </a>
+
+                                <a href="#" class="link">link</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Rutas de navegacion</h2>
+                    <div class="parrafo">
+                        <p>Para el correcto y cómodo uso de un sitio web es recomendable utilizar diferentes maneras de
+                            asignar las rutas del sitio web , estas deben ser claras y proporcionar un site-map </p>
+                    </div>
+                </article>
+                <article>
+                    <h2>agrupar informacion por encabezados</h2>
+                    <div class="parrafo">
+                        <p>A la hora de agrupar la información es aconsejable utiliza encabezados que resuman el texto
+                            para que el usuario se capaz de identificar de manera rápida la información que busca</p>
+                        <div class="scrollable">
+                            <h1>titulo 1</h1>
+                            <h2>subtitulo</h2>
+                            <p>texto aqui</p>
+                            <h2>subtitulo 2</h2>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Diseño para distintas plataformas</h2>
+                    <div class="parrafo">
+                        <p>Para un buen posicionamiento en el Seo se recomiendo diseñar y programar las paginas de tal
+                            manera que pueden ser fácilmente accesibles desde diferentes tecnologias</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>Imagenes</h2>
+                    <div class="parrafo">
+                        <p>Una buena practica en el estándar de accesibilidad es el uso del los srcset , que proveen a
+                            las etiquetas img , distintas imágenes , con distintos tamaños y pesos para mejorar la
+                            eficiencia de de nuestra web</p>
+                        <div class="scrollable">
+                            <img srcset="imgx1.png 1x, 
+                                        imgx2.png 2x,
+                                        img420.png 420px" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Elementos autoreproducibles</h2>
+                    <div class="parrafo">
+                        <p>En los elemento que se reproducen automáticamente hay que facilitar la posibilidad de porder
+                            controlarlos por si te has perdido algo de información</p>
+                    </div>
+                    <div class="scrollable flex-column">
+                        <video autoplay id="video">
+                            <source src="video.mp4" type="video/mp4">
+                            <source src="video.ogg" type="video/ogg">
+                            no se pueden reproducir los videos 
+                        </video>
+                        <div class="controls">
+                            <div class="button play">
+                                <a href="" id="play">
+                                    <span class="material-icons">play_arrow</span>
+                                </a>
+                            </div>
+                            <div class="button stop">
+                                <a href="" id="stop">
+                                    <span class="material-icons">stop</span>
+                                </a>
+                            </div>
+                            <div class="button pause">
+                                <a href="" id="pause">
+                                    <span class="material-icons">pause</span>
+                                </a>
+                            </div>
+                            <div class="button restart">
+                                <a href="" id="restart">
+                                    <span class="material-icons">replay</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h1>Developing</h1>
+                <article>
+                    <h2>Uso apropiado de la etiqueta label</h2>
+                    <div class="parrafo">
+                        <p>La etiqueta label enlaza su contenido con el elemento del formulario que tenga el mismo name
+                            , lo que facilita a los usuarios el saber que se pide en ese campo</p>
+                        <div class="scrollable">
+                            <label>nombre:<input type="text"></label>
+                            <div class="label"><label for="ape">apellido:<input type="text" name="ape" id="ape"></label></div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Incluir texto para las imagenes</h2>
+                    <div class="parrafo">
+                        <p>Cuando hablamos de imágenes es importante el uso del atributo alt que permite añadir un texto
+                            para la imagen , así si pasas el ratón por encima sabes que es lo que es o facilita a las
+                            personas que no pueden verla el saber que aparece en ellas</p>
+                            <div class="scrollable">
+                                <img srcset="imgx1.png 1x, 
+                                            imgx2.png 2x,
+                                            img420.png 420px" alt="texto altenativo para la imagen">
+                            </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>El correcto uso del lenguaje</h2>
+                    <div class="parrafo">
+                        <p>A la hora de crear tu sitio web , habilita el correcto lenguaje y utiliza el atributo Lang
+                            cuando no corresponsa el idioma con la pagina</p>
+                            <div class="scrollable">
+                                <code>&lthtml lang='es'&gt</code>
+                            </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Etiquetas Semanticas</h2>
+                    <div class="parrafo">
+                        <p>Html5 provee una cuantas etiquetas nuevas que permiten estructurar tu pagina web por
+                            secciones definidas y con un uso común</p>
+                            <div class="scrollable">
+                                <code>&ltheader&gt</code>
+                                <code>&ltmain&gt</code>
+                                <code>&ltsection&gt</code>
+                                <code>&ltarticle&gt</code>
+                                <code>&ltaside&gt</code>
+                                <code>&ltfooter&gt</code>
+                            </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Ayudar al usuario a corregir errores</h2>
+                    <div class="parrafo">
+                        <p>Dele al usuario notificaciones , mensajes de error o instrucciones sobre como solucionar los
+                            problemas</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>Uso del orden logico del codigo</h2>
+                    <div class="parrafo">
+                        <p>Es importante que el orden del código se parezca a lo que se va a visualizar</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>Adaptar al dispositivos de visualizacion</h2>
+                    <div class="parrafo">
+                        <p>Es recomendable que tu código implemente cambios según el dispositivo donde se vaya a
+                            visualizar facilitando la accesibilidad</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>Dar sentido a los elementos personalizados</h2>
+                    <div class="parrafo">
+                        <p>El uso de las etiquetas aria suele ser facilitar la navegación por elemento personalizados
+                            que no responden al estándar</p>
+                        <div class="scrollable">
+                            <code>&ltdiv class='search' role='search' arai-hidden='false'&gt</code>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h1>Debugging tools</h1>
+                <article>
+                    <h2>Wave Chrome Extension</h2>
+                    <div class="parrafo">
+                        <p>
+                            Esta herramienta permite que cualquier usuario de chrome identifique los puntos fuertes y debiles
+                            de su diseño , permitiendo asi la mejora de estas , aparecen los error y su posicion , las alertas 
+                            de elementos mejorables , las cosas bien hechas y las etiquetas aria que hay colocadas 
+                        </p>
+                        <img srcset="wave.png" alt="wave toolkit">
+                    </div>
+                </article>
+                <article>
+                    <h2>web accesibillity checker</h2>
+                    <div class="parrafo">
+                        <p>
+                            Esta herramienta te permite desde un navegador hacer un estudio de los puntos debiles de tu sitio web ,
+                            aunque es necesario que este hosteada en algun sitio para poder hacer este check.
+                        </p>
+                        <img src="wac.png" alt="" srcset="">
+                    </div>
+                </article>
+                <article>
+                    <h2>Cynthia says</h2>
+                    <div class="parrafo">
+                        <p>
+                            Esta herramienta , como las anteriores  te permite hacer un test y comprobar las cosas a mejorar en tu pagina 
+                            web , mostrandote los errores y recomendaciones para solucionarlos
+                        </p>
+                        <img src="arc.png" alt="" srcset="">
+                    </div>
+                </article>
+                <article>
+                    <h2>google lighthouse</h2>
+                    <div class="parrafo">
+                        <p>
+                            Esta herramiente proporcionado por la consola de google chrome nos permite como las anteriores ver los fallos de
+                            nuestra aplicacion en referente a la accesibilidad y su ventaja es que tambien te da tips para mejora el posicionamiento
+                            en el SEO .
+                        </p>
+                        <img src="lighthouse.png" alt="" srcset="">
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
