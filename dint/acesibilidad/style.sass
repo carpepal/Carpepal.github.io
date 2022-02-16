@@ -1,0 +1,177 @@
+
+
+$pri-0:#C6CAD6
+$pri-1:#6578A6
+$pri-2:#2D4684
+$pri-3:#0D245E
+$pri-4:#010E2D
+$sec-0:#FFF5EA
+$sec-1:#F8C58B
+$sec-2:#dc8a2e
+$sec-3:#8C4D05
+$sec-4:#432400
+
+hmtl 
+    width:100vw
+    height:100vh
+    
+body
+    width:100%
+    height:100%
+    margin:0  0
+    background-color: $sec-0
+    
+header
+    background-color: $pri-4
+    height:150px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin:0
+
+header
+    div
+        text-align: center
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+        font-weight: bold
+        color: $sec-2
+    
+    .title
+        font-size: 2em
+
+    .subtitle
+        font-size: 1.5em
+
+    .burger
+        display: none
+
+main
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-around
+
+section 
+    width:42%
+    margin: 0.8em
+    border-radius: 1em
+    border: 1px solid $pri-1
+    box-shadow: $pri-4 0.5em 0.5em 2.5em
+    padding: 0.5em
+
+section
+    h1
+        font-size: 2.5em
+        color: $pri-4
+    h2
+        font-size: 1.6em
+        color:$pri-3
+    h3
+        font-size: 1.5em
+        color:$pri-3
+    label
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        width:60%
+
+    .scrollable
+        border: 1px solid black
+        border-radius: 0.5em
+        overflow-y: scroll
+        width:100%
+        max-height: 10em
+    .scrollable
+        .buttons
+            padding: 10px 0
+            display: flex
+            flex-direction: row  
+            justify-content: center
+
+    .flex-column
+        display: flex
+        flex-direction: column !important
+    .bg-white
+        padding: 0.5em
+        background-color: white
+        box-shadow: inset -0.5em -0.2em 1em  black
+    
+    .text-black
+        color: black
+
+    .bg-black
+        padding: 0.5em
+        background-color: black
+        box-shadow: inset -0.5em -0.2em 1em  white
+    
+    .text-white
+        color: white
+
+    .error
+        color: red
+    
+    .buttons a
+        margin: 10px
+        background-color: $pri-3
+        width: 50px
+        height: 50px
+        border-radius: 50px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        color: white
+        text-decoration: none
+        transition: 0.5s
+    
+    .buttons a:hover
+        transform: translateY(-10px)
+
+    .button a
+
+        color: $pri-2
+    .button a:hover 
+        color: $pri-4
+
+    video
+        width: 90%
+    .controls 
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+
+img
+    width:100%
+    height: auto
+
+@media screen and (max-width: 420px)
+    section
+        width: 95%
+    header
+        display: flex
+        flex-direction: row-reverse
+        justify-content: start
+    header
+        height: 4em
+        .burger
+            display: flex 
+            height: auto
+            width:  64px
+            justify-content: center
+
+        .container
+            display: flex
+            align-content: center
+            flex-direction: column
+            justify-content: center
+            flex-grow: 2
+        .container
+            .title
+                font-size: 1.2em
+            
+            .subtitle
+                font-size: 0.9em
+
+
