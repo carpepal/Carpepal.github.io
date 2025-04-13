@@ -1,10 +1,10 @@
 site: 
   title: PortFolio
-  start_page: portfolio::index.adoc
+  start_page: PortFolio::index.adoc
 content:
   sources:
     - url: .
-      branches: [feature/*]
+      branches: [main]
       start_path: docs
 ui:
   bundle:
