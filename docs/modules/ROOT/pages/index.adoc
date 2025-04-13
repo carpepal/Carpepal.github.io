@@ -1,0 +1,7 @@
+= Carlos Ángel Pellico Feijoo Developer Portfolio
+
+== Descripción 
+
+Soy un apasionado por el desarrollo de software con un gran interés en aprender nuevas tecnologías. Mi intención es convertirme en un desarrollador fullstack con capacidad de crear soluciones completas en varios ámbitos.
+
+Tengo experiencia en el desarrollo de aplicaciones web en el apartado de frontend con Angular, React y SvelteKit. Y en el apartado de backend tengo un poco de experiencia con Java y el framework Spring Boot.
