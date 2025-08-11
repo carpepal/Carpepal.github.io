@@ -1,7 +1,42 @@
-= Carlos Ángel Pellico Feijoo Developer Portfolio
+= Carlos Ángel Pellico Feijoo - Developer Portfolio
+:icons: image
 
-== Descripción 
+https://www.dropbox.com/scl/fi/by5gptp82op3qdvmg3sfu/CV_Carlos_Pellico_Feijoo_stf.pdf?rlkey=k9e3lkkl3ye4rhmvgcgvi212o&st=9vzkghbj&dl=0[Descargar mi CV]
+
+== Sobre mí
 
 Soy un apasionado por el desarrollo de software con un gran interés en aprender nuevas tecnologías. Mi intención es convertirme en un desarrollador fullstack con capacidad de crear soluciones completas en varios ámbitos.
 
 Tengo experiencia en el desarrollo de aplicaciones web en el apartado de frontend con Angular, React y SvelteKit. Y en el apartado de backend tengo un poco de experiencia con Java y el framework Spring Boot.
+
+== Habilidades
+
+.Tabla Tecnológicas
+[cols="1,6,5"]
+|===
+| image:angular.png[25,25] | Angular | Intermedio
+| image:react.png[25,25] | React | Intermedio
+| image:java.png[25,25] | Java | Intermedio
+| image:spring.png[25,25] | Spring Boot | Intermedio
+|  | PostgreSQL | Intermedio
+|  | Express.js | Intermedio
+| image:ts.png[25,25] | TypeScript | Intermedio
+| image:js.png[25,25] | JavaScript | Intermedio
+| image:css.png[25,25] | CSS | Intermedio
+| image:svelte.png[25,25] | SvelteKit | Intermedio
+|===
+
+.Table Soft Skills
+|===
+| Trabajo en equipo 
+| Resolución de problemas 
+| Comunicación 
+| Adaptabilidad 
+| Aprendizaje continuo 
+| Gestión del tiempo 
+| Creatividad 
+| Pensamiento crítico 
+|===
+
+== Proyectos destacados
+
